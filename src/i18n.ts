@@ -2,8 +2,8 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-import resumeEN from './assets/resume_en.b64?raw';
-import resumeZH from './assets/resume_zh.b64?raw';
+import resumeEN from './assets/resume_en.b64';
+import resumeZH from './assets/resume_zh.b64';
 
 const parseResumeData = (b64: string): { data: any | null; error: Error | null } => {
   try {
