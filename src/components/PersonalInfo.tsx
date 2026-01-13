@@ -24,7 +24,7 @@ const PersonalInfo: React.FC = () => {
           {personalInfo.wechatqrTitle}: <a href={`./qr/#${personalInfo.wechatqr}`} target="_blank" rel="noopener noreferrer">{personalInfo.wechatqr}</a>
           </li>
           <li className="mb-2">
-          {personalInfo.wechatidTitle}: <a href={`https://${personalInfo.wechatid}`} target="_blank" rel="noopener noreferrer">{personalInfo.wechatid}</a>
+          {personalInfo.wechatidTitle}: <a href={`${personalInfo.wechatid}`} target="_blank" rel="noopener noreferrer">{personalInfo.wechatid}</a>
           </li>
         </ul>
       </div>
