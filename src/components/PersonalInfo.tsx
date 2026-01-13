@@ -21,10 +21,10 @@ const PersonalInfo: React.FC = () => {
             Phone: {personalInfo.phone}
           </li>
           <li className="mb-2">
-            LinkedIn: <a href={`https://${personalInfo.linkedin}`} target="_blank" rel="noopener noreferrer">{personalInfo.linkedin}</a>
+            WeChat QR: <a href={`./qr/#${personalInfo.wechatqr}`} target="_blank" rel="noopener noreferrer">{personalInfo.wechatqr}</a>
           </li>
           <li className="mb-2">
-            GitHub: <a href={`https://${personalInfo.github}`} target="_blank" rel="noopener noreferrer">{personalInfo.github}</a>
+            WeChat ID: <a href={`https://${personalInfo.wechatid}`} target="_blank" rel="noopener noreferrer">{personalInfo.wechatid}</a>
           </li>
         </ul>
       </div>

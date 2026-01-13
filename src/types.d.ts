@@ -3,8 +3,8 @@ export interface PersonalInfo {
   title: string;
   email: string;
   phone: string;
-  linkedin: string;
-  github: string;
+  wechatqr: string;
+  wechatid: string;
 }
 
 export interface Experience {
