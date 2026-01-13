@@ -2,9 +2,13 @@ export interface PersonalInfo {
   name: string;
   title: string;
   email: string;
+  emailTitle: string;
   phone: string;
+  phoneTitle: string;
   wechatqr: string;
+  wechatqrTitle: string;
   wechatid: string;
+  wechatidTitle: string;
 }
 
 export interface Experience {

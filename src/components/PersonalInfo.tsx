@@ -15,16 +15,16 @@ const PersonalInfo: React.FC = () => {
       <div className="contact-info mt-4">
         <ul className="list-unstyled">
           <li className="mb-2">
-            Email: <a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a>
+          {personalInfo.emailTitle}: <a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a>
           </li>
           <li className="mb-2">
-            Phone: {personalInfo.phone}
+          {personalInfo.phoneTitle}: {personalInfo.phone}
           </li>
           <li className="mb-2">
-            WeChat QR: <a href={`./qr/#${personalInfo.wechatqr}`} target="_blank" rel="noopener noreferrer">{personalInfo.wechatqr}</a>
+          {personalInfo.wechatqrTitle}: <a href={`./qr/#${personalInfo.wechatqr}`} target="_blank" rel="noopener noreferrer">{personalInfo.wechatqr}</a>
           </li>
           <li className="mb-2">
-            WeChat ID: <a href={`https://${personalInfo.wechatid}`} target="_blank" rel="noopener noreferrer">{personalInfo.wechatid}</a>
+          {personalInfo.wechatidTitle}: <a href={`https://${personalInfo.wechatid}`} target="_blank" rel="noopener noreferrer">{personalInfo.wechatid}</a>
           </li>
         </ul>
       </div>
