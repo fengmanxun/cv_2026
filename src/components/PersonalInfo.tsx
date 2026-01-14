@@ -24,10 +24,10 @@ const PersonalInfo: React.FC = () => {
           {personalInfo.wechatqrTitle}: <a href={`./qr/#${personalInfo.wechatqr}`} target="_blank" rel="noopener noreferrer">{personalInfo.wechatqr}</a>
           </li>
           <li className="mb-2">
-          {personalInfo.wechatidTitle}: <a href={`https://www.google.com/search?q=${personalInfo.wechatid}`} target="_blank" rel="noopener noreferrer">{personalInfo.wechatid}</a>
+          {personalInfo.wechatidTitle}: {personalInfo.wechatid}
           </li>
           <li className="mb-2">
-          {personalInfo.locationTitle}: <a href={`https://www.google.com/search?q=${personalInfo.location}`} target="_blank" rel="noopener noreferrer">{personalInfo.location}</a>
+          {personalInfo.locationTitle}: {personalInfo.location}
           </li>
         </ul>
       </div>
